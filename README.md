@@ -8,7 +8,7 @@ A powerful, single-file PayRoll App with advanced features like employee records
 - Payroll Records
 
 ## Demo
-![PayrollApp Demo](assets/PayrollApp.PNG)
+![PayrollApp Demo](app/assets/PayrollApp.PNG)
 
 ## How to run
 1. `app` > `index.html`
