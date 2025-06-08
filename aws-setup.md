@@ -20,7 +20,8 @@
 - Confirm
 #### Bucket Policy
 - Edit
-- `{
+- ```
+  {
     "Version": "2012-10-17",
     "Statement": [
     	{
@@ -35,7 +36,7 @@
         	]
     	}
     ]
-}`
+  } 
 - Save changes
 ### Upload to S3
 - Objects
