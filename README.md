@@ -19,6 +19,11 @@ A powerful, single-file PayRoll App with advanced features like employee records
 - HTML
 - CSS
 - JavaScript
+- AWS S3 Bucket
 
 ## LICENSE
 This project is licensed under the [MIT License](LICENSE)
+
+## AWS Deployment
+Deployed the PayrollApp on AWS using the S3 Bucket
+![AWS Deployment](app/assets/aws.md)
