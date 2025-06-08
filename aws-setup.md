@@ -1,0 +1,44 @@
+## S3 Bucket
+
+### Create S3
+- AWS Console
+- S3 Bucket
+- Create Bucket
+- Enter name
+- Save changes
+
+### Modify S3
+#### Properties
+- `Edit static website hosting` > `Enable`
+- Enter `index document` name
+- `save changes`
+- copy static website endpoint
+#### Permissions
+- `Edit Block public access`
+- deselect
+- save changes 
+- confirm
+#### Bucket Policy
+- edit
+`{
+    "Version": "2012-10-17",
+    "Statement": [
+    	{
+        	"Sid": "PublicReadGetObject",
+        	"Effect": "Allow",
+        	"Principal": "*",
+        	"Action": [
+            	"s3:GetObject"
+        	],
+        	"Resource": [
+                "arn:aws:s3:::Bucket-Name/*"
+        	]
+    	}
+    ]
+}`
+- Save changes
+### Upload to S3
+- Objects
+- Add files
+- Add HTML and other files if necisarry
+- Open aws s3 bucket website link
