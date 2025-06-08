@@ -15,12 +15,12 @@
 - copy static website endpoint
 #### Permissions
 - `Edit Block public access`
-- deselect
-- save changes 
-- confirm
+- Eeselect
+- Save changes 
+- Confirm
 #### Bucket Policy
-- edit
-`{
+- Edit
+- `{
     "Version": "2012-10-17",
     "Statement": [
     	{
