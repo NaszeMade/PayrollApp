@@ -36,7 +36,8 @@
         	]
     	}
     ]
-  } 
+  }
+- Replace "Bucket-Name" with actual s3 name
 - Save changes
 ### Upload to S3
 - Objects
